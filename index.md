@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to the Data page
 
-You can use the [editor on GitHub](https://github.com/wildfire-modeling/wildfire-modeling.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+On this page, you will find the vegetation, fuel type, topography data as well as the indications of wildfire presence in terms of fire radiative power (FPR) in 375-meter by 375-meter polygons of the California through the years 2012 to 2018.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Data Sources
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We gather the vegation, fuel type, and topography from the [LANDFIRE](https://www.landfire.gov/index.php) website of years 2012, 2014, and 2016. They are 
 
 ```markdown
 Syntax highlighted code block
