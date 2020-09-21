@@ -1,10 +1,10 @@
 ## Welcome to the Data page
 
-We provide a [dataset](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf_23HRUAQ/view?usp=sharing) of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
+We provide a [dataset](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf_23HRUAQ/view?usp=sharing) of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, and topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
 
 ### Data Sources
 
-We gather the raster dataset of vegation, fuel type, and topography data  of years 2012, 2014, and 2016 from the [LANDFIRE](https://www.landfire.gov/index.php) website. They are in 30-meter square cells. 
+We gather the raster dataset of [vegetation](https://www.landfire.gov/vegetation.php), [fuel type](https://www.landfire.gov/fuel.php), and [topography](https://www.landfire.gov/topographic.php) data  of years 2012, 2014, and 2016 from the [LANDFIRE](https://www.landfire.gov/index.php) website. They are in 30-meter square cells. 
 
 The near real-time (NRT) fire occurrence data in vector form are from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt) thermalanomalies/active fire database. They are in 375-meter square cells.
 
