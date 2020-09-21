@@ -54,7 +54,7 @@ The labels are the neighbor's FRP in the next time step in continuous values.
 </table>
 
 ### Data Processing
-To reconcile the different spatial resolutions in the different (raster and vector) forms, we divide the state of California into a 375-meter by 375-meter grid. The center of each fire pixel from the vector data can overlap with exactly one cell. We compute the *zonal statistics* (calculating summary statistics using a raster dataset within zones defined by another dataset, typically in vecotr form) for the vector data using the raster data. The approach is fully decentralized and does not require data to be converted from one form to another. It computes an intermediate data structure, called *intersections file*, between the two file formats. Leveraging parallel computing additionally, we assemble large geo-spatial data in a tractable manner.
+To reconcile the different spatial resolutions in the different (raster and vector) forms, we divide the state of California into a 375-meter by 375-meter grid. The center of each fire pixel from the vector data can overlap with exactly one cell. We compute the *zonal statistics* (calculating summary statistics using a raster dataset within zones defined by another dataset, typically in vecotr form) for the vector data using the raster data. The approach is fully decentralized and does not require data to be converted from one form to another. It computes an intermediate data structure, called an *intersections file*, between the two file formats. Leveraging parallel computing additionally, we assemble large geo-spatial data in a tractable manner.
 
 ### Contact
 For any questions or comments, please contact us [here](mailto:wildfire.modeling20@gmail.com).
