@@ -61,4 +61,4 @@ If you want to use this data for research, please cite it as follows:
 "Diao, Tina; Singla, Samriddhi; Mukhopadhyay, Ayan; Eldawy, Ahmed; Shachter, Ross; Kochenderfer, Mykel, 2020. "WildfireDB : An Open-Source Database of Wildfire Spread with Related Features"
 
 ### Contact
-For any questions or comments, please contact us [here](mailto:ayanmukh@stanford.edu).
+For any questions or comments, please contact us [here](mailto:tdiao@stanford.edu).
