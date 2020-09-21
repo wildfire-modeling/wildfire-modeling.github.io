@@ -14,3 +14,6 @@ There are 2,367,209 datapoints for years 2012 through 2018. Each datapoint consi
 The features include the cell's current FRP (a positive value as we condition on on a fire occurring), the count, minimum, maximum, mean, median, mode, and sum values of canopy base density, canopy base height, canopy cover, canopy height, existing vegetation cover, existing vegetation height, existing vegetation type from years 2012, 2014, and 2016, as well as those of elevation and slope from year 2016.
 
 The labels are the neighbor's FRP in the next time step in continuous values.
+
+### Contact
+For any questions or comments, please contact us [here](mailto:wildfire.modeling20@gmail.com).
