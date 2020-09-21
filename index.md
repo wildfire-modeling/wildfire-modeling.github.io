@@ -6,7 +6,7 @@ We provide a [dataset](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf
 
 We gather the raster dataset of [vegetation](https://www.landfire.gov/vegetation.php), [fuel type](https://www.landfire.gov/fuel.php), and [topography](https://www.landfire.gov/topographic.php) data  of years 2012, 2014, and 2016 from the [LANDFIRE](https://www.landfire.gov/index.php) website. They are in 30-meter square cells. 
 
-The near real-time (NRT) fire occurrence data in vector form are from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt) thermalanomalies/active fire database. They are in 375-meter square cells.
+The near real-time (NRT) [fire occurrence data](https://firms2.modaps.eosdis.nasa.gov/map/#d:2020-09-20..2020-09-21;@0.0,0.0,3z) in vector form are from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt) thermalanomalies/active fire database. They are in 375-meter square cells.
 
 ### Data Description
 There are 2,367,209 datapoints for years 2012 through 2018. Each datapoint consists of a polygon cell on fire in a time step, its polygon features (more details below) and its neighbor polygon's FRP in the next time step. A zero-value in FRP indicates that its neighbor is not on fire in the next time step.
