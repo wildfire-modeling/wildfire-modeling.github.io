@@ -1,6 +1,6 @@
 ## Welcome to the Data page
 
-We provide a dataset of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
+We provide a [dataset](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf_23HRUAQ/view?usp=sharing) of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
 
 ### Data Sources
 
