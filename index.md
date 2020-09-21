@@ -1,35 +1,16 @@
 ## Welcome to the Data page
 
-On this page, you will find the vegetation, fuel type, topography data as well as the indications of wildfire presence in terms of fire radiative power (FPR) in 375-meter by 375-meter polygons of the California through the years 2012 to 2018.
+We provide a dataset of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
 
 ### Data Sources
 
-We gather the vegation, fuel type, and topography from the [LANDFIRE](https://www.landfire.gov/index.php) website of years 2012, 2014, and 2016. They are 
+We gather the raster dataset of vegation, fuel type, and topography data  of years 2012, 2014, and 2016 from the [LANDFIRE](https://www.landfire.gov/index.php) website. They are in 30-meter square cells. 
 
-```markdown
-Syntax highlighted code block
+The near real-time (NRT) fire occurrence data in vector form are from the [Visible Infrared Imaging Radiometer Suite (VIIRS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt) thermalanomalies/active fire database. They are in 375-meter square cells.
 
-# Header 1
-## Header 2
-### Header 3
+### Data Description
+There are 2,367,209 datapoints for years 2012 through 2018. Each datapoint consists of a polygon cell on fire in a time step, its polygon features (more details below) and its neighbor polygon's FRP in the next time step. A zero-value in FRP indicates that its neighbor is not on fire in the next time step.
 
-- Bulleted
-- List
+The features include the cell's current FRP (a positive value as we condition on on a fire occurring), the count, minimum, maximum, mean, median, mode, and sum values of canopy base density, canopy base height, canopy cover, canopy height, existing vegetation cover, existing vegetation height, existing vegetation type from years 2012, 2014, and 2016, as well as those of elevation and slope from year 2016.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wildfire-modeling/wildfire-modeling.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The labels are the neighbor's FRP in the next time step in continuous values.
