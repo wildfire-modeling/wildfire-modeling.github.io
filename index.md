@@ -27,11 +27,18 @@ The labels are the neighbor's FRP in the next time step in continuous values.
 <th>Canopy Base Density max.</th>
 <th>Canopy Base Density min.</th>
 <th>Canopy Base Density median</th>
-<th>Canopy Base Density mode</th>
 <th>Canopy Base Density sum</th>
 <th>Canopy Base Density mode</th>
 <th>Canopy Base Density count</th>
+<th>Canopy Base Density mean</th>
 <th> ... </th>
+<th>Neighbor Slope max.</th>
+<th>Neighbor Slope min.</th>
+<th>Neighbor Slope median</th>
+<th>Neighbor Slope sum</th>
+<th>Neighbor Slope mode</th>
+<th>Neighbor Slope count</th>
+<th>Neighbor Slope mean</th>
 </tr>
 </thead>
 <tbody>
@@ -49,6 +56,13 @@ The labels are the neighbor's FRP in the next time step in continuous values.
 <th>0.0</th>
 <th>156</th>
 <th> ... </th>
+<th>37.0</th>
+<th>3.0</th>
+<th>17.0</th>
+<th>3109.0</th>
+<th>24.0</th>
+<th>169.0</th>
+<th>18.396450</th>
 </tr>
 </tbody>
 </table>
