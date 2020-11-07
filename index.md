@@ -72,7 +72,8 @@ To reconcile the different spatial resolutions in the different (raster and vect
 
 ### Cite
 If you want to use this data for research, please cite it as follows:
-"Diao, T., Singla, S., Mukhopadhyay, A., Eldawy, A., Shachter, R., & Kochenderfer, M. (2020). Uncertainty Aware Wildfire Management. arXiv preprint arXiv:2010.07915." Also forthcoming at NeurIPS AI for Earth Sciences Workshop December 2020.
+["Diao, T., Singla, S., Mukhopadhyay, A., Eldawy, A., Shachter, R., & Kochenderfer, M. (2020). Uncertainty Aware Wildfire Management. arXiv preprint arXiv:2010.07915."](https://https://arxiv.org/abs/2010.07915) 
+ Also forthcoming at NeurIPS AI for Earth Sciences Workshop December 2020.
 
 ### Contact
 For any questions or comments, please contact us [here](mailto:tdiao@stanford.edu).
