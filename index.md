@@ -80,4 +80,4 @@ If you want to use this data for research, please cite it as follows:
  Also forthcoming at NeurIPS AI for Earth Sciences Workshop December 2020.
 
 ### Contact
-For any questions or comments, please contact us [Tina Diao](mailto:tdiao@stanford.edu), [Ayan Mukhopadhyay](ayan.mukhopadhyay@vanderbilt.edu), or [Samriddhi Singla](ssing068@ucr.edu).
+For any questions or comments, please contact us [Tina Diao](mailto:tdiao@stanford.edu), [Ayan Mukhopadhyay](mailto:ayan.mukhopadhyay@vanderbilt.edu), or [Samriddhi Singla](mailto:ssing068@ucr.edu).
