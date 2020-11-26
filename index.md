@@ -1,6 +1,10 @@
 ## Welcome to the Data page of Uncertainty Aware Wildfire Management
 
-We provide a [dataset](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf_23HRUAQ/view?usp=sharing) of historical fire spread in California, USA through the years 2012 to 2018 in 375-meter polygons. They include the landscape data (vegetation, fuel type, and topography) and the indications of wildfire presence in terms of fire radiative power (FPR). 
+![Recent Wildfires in California (Source: Wikipedia)](/images/wildfire.jpg?raw=true)
+
+Recent wildfires in the United States, Australia, and Brazil have resulted in loss of life and billions of dollars, destroying countless structures and forests.  Fighting wildfires is extremely complex. A major problem in using data-driven models to combat wildfires is the lack of comprehensive data sources that relate fires with relevant covariates. We present the first open-source wildfire dataset that combines historical wildifre occurrences with relevant features extracted from satellite imagery. Our dataset, with over 2 million data points, is created using a novel approach to process large-scale raster and vector data. 
+
+Our data can be accessed [here](https://drive.google.com/file/d/1B582y8_cPWxNuevpm3ZM-SZf_23HRUAQ/view?usp=sharing). Currently, we have mapped historical fire data in California, USA through the years 2012 to 2018. Our spatial resolution is in the form of 375-meter square polygons. Indication of wildfire is captured through fire radiative power (FPR). Additionally, each fire occurrence includes relevant information like type of vegetation, fuel type, and topography. The dataset can be used to learn data-driven models for fire spread as well as agent-driven approaches for fire suppression. We will present details about the database at the AI for Earth Sciences workshop at NeurIPS 2020. See the paper [here](https://ayanmukhopadhyay.github.io/files/neurips20.pdf). We have also explored how uncertainty aware wildfire management strategies can be used to suppress the spread of wildfires. Our paper, accepted at the AAAI Fall Symposium Series Workshop on AI for Social Good 2020 can be accessed [here](https://ayanmukhopadhyay.github.io/files/aaai_wildfire.pdf).
 
 ### Data Sources
 
@@ -76,4 +80,4 @@ If you want to use this data for research, please cite it as follows:
  Also forthcoming at NeurIPS AI for Earth Sciences Workshop December 2020.
 
 ### Contact
-For any questions or comments, please contact us [here](mailto:tdiao@stanford.edu).
+For any questions or comments, please contact us [Tina Diao](mailto:tdiao@stanford.edu), [Ayan Mukhopadhyay](ayan.mukhopadhyay@vanderbilt.edu), or [Samriddhi Singla](ssing068@ucr.edu).
